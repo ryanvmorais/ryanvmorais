@@ -31,14 +31,14 @@ Confira meus cursos, tutoriais e dicas práticas sobre tecnologia, programação
 
 [![Inscreva-se no Canal do Ryan Morais](https://img.shields.io/badge/-You%20Tube-FF0000style%3Dflat%26logo%3Dyoutube?style=for-the-badge&logo=youtube&logoColor=FF0000&logoSize=flat&color=F0F0F0&link=https%3A%2F%2Fwww.youtube.com%2F%40ryanvmorais)](https://www.youtube.com/@ryanvmorais)
 
-> 💡 **Dica:** Explore o repositório [**aprenda-com-ryan-morais**](https://github.com/ryanvmorais/aprenda-com-ryan-morais) para encontrar os arquivos usados nas aulas e tutoriais. Use o código com cuidado.
+> 💡 **Dica:** Explore o repositório [**aprenda-com-ryan-morais**](https://github.com/ryanvmorais/aprenda-com-ryan-morais) para encontrar os arquivos usados nas aulas e tutoriais.
 
 ---
 ### 📫 Contato e Colaboração:
 Tem alguma sugestão de tutorial ou quer trocar uma ideia sobre segurança e código? Escolha o melhor canal abaixo e vamos conversar!
 
-[![LinkedIn de Ryan Morais](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanvmorais/)
 [![E-mail de Contato - Ryan Morais](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@ryanmorais.com.br)
+[![LinkedIn de Ryan Morais](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanvmorais/)
 
 <p align="center">
   <i>"O conhecimento só é real quando compartilhado."</i><br>
