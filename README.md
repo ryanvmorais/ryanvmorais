@@ -1,5 +1,5 @@
 ﻿# Ryan Morais | Desenvolvedor de Software • Educador de Programação & IA 
-Sou um **Desenvolvedor de Software** apaixonado por ensinar **Programação, IA e Cibersegurança**. Meu objetivo aqui no GitHub é compartilhar códigos limpos, ferramentas práticas e laboratórios que ajudem a comunidade de tecnologia a evoluir. Todo o material que você encontra aqui serve como base para as aulas do meu canal, onde transformamos teoria em soluções reais.
+Sou um **Desenvolvedor de Software** apaixonado por ensinar **Programação, IA e Cibersegurança**. Meu objetivo aqui no GitHub é compartilhar códigos limpos, ferramentas práticas e laboratórios que ajudem a comunidade de tecnologia a evoluir. Todo o material que você encontra aqui serve como base para as aulas do meu canal, onde transformo teoria em soluções reais.
 
 ### 🎯 Áreas de Especialização:
 - **🐍 Desenvolvimento Python:** Criação de automações, análise de dados (Data Science) e ferramentas de sistema.
