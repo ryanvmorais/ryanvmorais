@@ -34,7 +34,7 @@ Confira meus cursos, tutoriais e dicas práticas sobre tecnologia, programação
 
 ---
 ### 📫 Contato e Colaboração:
-Tem alguma sugestão de tutorial ou quer trocar uma ideia sobre segurança e código? Escolha o melhor canal abaixo e vamos conversar!
+Tem alguma sugestão de tutorial ou quer trocar uma ideia sobre programação e segurança? Escolha o melhor canal abaixo e vamos conversar!
 
 [![E-mail de Contato - Ryan Morais](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@ryanmorais.com.br)
 [![LinkedIn de Ryan Morais](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanvmorais/)
