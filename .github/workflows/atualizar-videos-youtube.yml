@@ -1,0 +1,46 @@
+name: Atualizar últimos vídeos do YouTube no README
+
+# ---------------------------------------------------------------------------
+# COMO ATIVAR (quando os vídeos começarem a ser publicados):
+#
+# 1. Descubra o ID do canal (começa com "UC..."). Opções:
+#    - Abra https://www.youtube.com/@ryanvmorais, veja o código-fonte da
+#      página (Ctrl+U) e procure por "channelId" ou "externalId".
+#    - Ou teste no navegador:
+#      https://www.youtube.com/feeds/videos.xml?user=ryanvmorais
+#
+# 2. Troque CANAL_ID abaixo pelo ID real (ex.: UCabc123...).
+#
+# 3. Descomente o bloco "schedule" para o workflow rodar sozinho.
+#
+# 4. Garanta que o README tem os marcadores:
+#      <!-- YOUTUBE:START -->
+#      <!-- YOUTUBE:END -->
+#
+# Enquanto CANAL_ID não for preenchido, o workflow só roda no modo manual
+# (aba Actions > Run workflow) e não altera nada de errado no README.
+# ---------------------------------------------------------------------------
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 */6 * * *" # a cada 6 horas
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Puxar vídeos do feed do canal
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=CANAL_ID"
+          comment_tag_name: "YOUTUBE"
+          max_post_count: 5
+          template: "$newLine- [$title]($url)"
+          commit_message: "docs: atualiza últimos vídeos do YouTube no README"

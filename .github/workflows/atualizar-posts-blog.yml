@@ -1,0 +1,45 @@
+name: Atualizar últimos posts do blog no README
+
+# ---------------------------------------------------------------------------
+# COMO ATIVAR (quando o blog em ryanmorais.com.br entrar no ar):
+#
+# 1. O site precisa expor um feed RSS/Atom do blog. Hoje o projeto
+#    hub-ryan-morais ainda NÃO tem esse endpoint — é preciso criá-lo com
+#    o Django syndication framework (django.contrib.syndication), por
+#    exemplo em https://ryanmorais.com.br/blog/feed/.
+#
+# 2. Ajuste a URL em "feed_list" abaixo para o endpoint real do feed.
+#
+# 3. Descomente o bloco "schedule" para o workflow rodar sozinho.
+#
+# 4. Garanta que o README tem os marcadores:
+#      <!-- BLOG:START -->
+#      <!-- BLOG:END -->
+#
+# Enquanto o feed não existir, o workflow só roda no modo manual
+# (aba Actions > Run workflow).
+# ---------------------------------------------------------------------------
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "30 5 * * *" # todo dia às 05:30 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Puxar posts do feed do blog
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://ryanmorais.com.br/blog/feed/"
+          comment_tag_name: "BLOG"
+          max_post_count: 5
+          template: "$newLine- [$title]($url)"
+          commit_message: "docs: atualiza últimos posts do blog no README"
