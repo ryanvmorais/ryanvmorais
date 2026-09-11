@@ -27,10 +27,10 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 
 | Repositório | O que é |
 | --- | --- |
-| [aprenda-com-ryan-morais](https://github.com/ryanvmorais/aprenda-com-ryan-morais) | Arquivos usados nas aulas e tutoriais do canal — o material de apoio dos vídeos. |
-| [hub-ryan-morais](https://github.com/ryanvmorais/hub-ryan-morais) | Código do meu site pessoal (ryanmorais.com.br): portfólio, blog e newsletter, construído em Django. |
-| [projetos-python](https://github.com/ryanvmorais/projetos-python) | Coletânea de projetos e exercícios em Python. |
-| [projetos-javascript](https://github.com/ryanvmorais/projetos-javascript) | Coletânea de projetos de front-end e JavaScript. |
+| [webvigil](https://github.com/ryanvmorais/webvigil) | Scanner de vulnerabilidades web (DAST) em Python — engine reutilizável, CLI e dashboard opcional, seguro por padrão para rodar em produção. |
+| [django-fullstack-portfolio](https://github.com/ryanvmorais/django-fullstack-portfolio) | Template de portfólio profissional em Django, com segurança avançada (CSP, honeypot, rate limit) e testes automatizados — [veja rodando ao vivo](https://djangofullstackportfolio.pythonanywhere.com/). |
+| [aprenda-com-ryan-morais](https://github.com/ryanvmorais/aprenda-com-ryan-morais) | Índice de todos os projetos e laboratórios usados nas aulas do canal. |
+| [python-jogo-da-velha](https://github.com/ryanvmorais/python-jogo-da-velha) | Exercício de lógica de programação em Python — matrizes, estruturas condicionais e POO. |
 
 ---
 
