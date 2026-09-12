@@ -67,8 +67,8 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 
 ### 📊 GitHub
 
-![Estatísticas de Ryan Morais](https://github-readme-stats.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br)
-![Linguagens mais usadas](https://github-readme-stats.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br)
+![Estatísticas de Ryan Morais](https://readme-stats-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br)
+![Linguagens mais usadas](https://readme-stats-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br)
 
 ---
 
