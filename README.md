@@ -67,8 +67,16 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 
 ### 📊 GitHub
 
-![Estatísticas de Ryan Morais](https://readme-stats-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br)
-![Linguagens mais usadas](https://readme-stats-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-stats-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br">
+  <img alt="Estatísticas de Ryan Morais" src="https://readme-stats-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-stats-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br">
+  <img alt="Linguagens mais usadas" src="https://readme-stats-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br">
+</picture>
 
 ---
 
