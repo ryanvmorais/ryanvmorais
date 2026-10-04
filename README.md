@@ -68,14 +68,14 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 ### 📊 GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark&v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&v=3">
-  <img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&v=3">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
+  <img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark&v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&v=3">
-  <img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&v=3">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
+  <img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
 </picture>
 
 ---
