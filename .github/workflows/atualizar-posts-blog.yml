@@ -38,5 +38,7 @@ jobs:
           # 4 itens, o mesmo teto dos vídeos do YouTube e da tabela de repositórios
           # em destaque: as três listas do perfil têm o mesmo tamanho.
           max_post_count: 4
-          template: "$newLine- [$title]($url)"
+          # $newline em minusculas: a action so reconhece esse nome
+          template: "$newline- [$title]($url)"
+          tag_post_pre_newline: true
           commit_message: "docs: atualiza últimos posts do blog no README"

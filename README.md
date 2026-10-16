@@ -10,8 +10,6 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 [![Newsletter](https://img.shields.io/badge/Newsletter-1A1A2E.svg?style=for-the-badge&logo=maildotru&logoColor=white)](https://ryanmorais.com.br/newsletter/)
 [![Spotify](https://img.shields.io/badge/Spotify-%1ED760.svg?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/show/6zBFi3plnkSIMmT4bDY7i1)
 
-Blog, newsletter, podcast e softwares, tudo reunido em **[ryanmorais.com.br](https://ryanmorais.com.br)**.
-
 ---
 
 ### 🎯 O que eu faço
@@ -44,7 +42,10 @@ Blog, newsletter, podcast e softwares, tudo reunido em **[ryanmorais.com.br](htt
 
 ### 📝 Últimos artigos no blog
 
-<!-- BLOG:START -->$newLine- [Vale a pena aprender programação com a IA gerando código?](https://ryanmorais.com.br/blog/vale-a-pena-aprender-programacao-com-a-ia-gerando/)<!-- BLOG:END -->
+<!-- BLOG:START -->
+
+- [Vale a pena aprender programação com a IA gerando código?](https://ryanmorais.com.br/blog/vale-a-pena-aprender-programacao-com-a-ia-gerando/)
+<!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)
 
@@ -52,16 +53,10 @@ Blog, newsletter, podcast e softwares, tudo reunido em **[ryanmorais.com.br](htt
 
 ### 📊 GitHub
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-  <img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-  <img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-</picture>
+<img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3#gh-light-mode-only">
+<img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3#gh-dark-mode-only">
+<img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3#gh-light-mode-only">
+<img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3#gh-dark-mode-only">
 
 ---
 
@@ -70,7 +65,7 @@ Blog, newsletter, podcast e softwares, tudo reunido em **[ryanmorais.com.br](htt
 Sugestão de tutorial, dúvida ou vontade de trocar uma ideia sobre código e segurança? Escolhe o canal:
 
 [![E-mail](https://img.shields.io/badge/E--mail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@ryanmorais.com.br)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanvmorais/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0NCw3MzM5IEwxNDAsNzMzOSBMMTQwLDczMzIuMDAxIEMxNDAsNzMzMC4wODEgMTM5LjE1Myw3MzI5LjAxIDEzNy42MzQsNzMyOS4wMSBDMTM1Ljk4MSw3MzI5LjAxIDEzNSw3MzMwLjEyNiAxMzUsNzMzMi4wMDEgTDEzNSw3MzM5IEwxMzEsNzMzOSBMMTMxLDczMjYgTDEzNSw3MzI2IEwxMzUsNzMyNy40NjIgQzEzNSw3MzI3LjQ2MiAxMzYuMjU1LDczMjUuMjYgMTM5LjA4Myw3MzI1LjI2IEMxNDEuOTEyLDczMjUuMjYgMTQ0LDczMjYuOTg2IDE0NCw3MzMwLjU1OCBMMTQ0LDczMzkgTDE0NCw3MzM5IFogTTEyNi40NDIsNzMyMy45MjEgQzEyNS4wOTMsNzMyMy45MjEgMTI0LDczMjIuODE5IDEyNCw3MzIxLjQ2IEMxMjQsNzMyMC4xMDIgMTI1LjA5Myw3MzE5IDEyNi40NDIsNzMxOSBDMTI3Ljc5LDczMTkgMTI4Ljg4Myw3MzIwLjEwMiAxMjguODgzLDczMjEuNDYgQzEyOC44ODQsNzMyMi44MTkgMTI3Ljc5LDczMjMuOTIxIDEyNi40NDIsNzMyMy45MjEgTDEyNi40NDIsNzMyMy45MjEgWiBNMTI0LDczMzkgTDEyOSw3MzM5IEwxMjksNzMyNiBMMTI0LDczMjYgTDEyNCw3MzM5IFoiLz48L3N2Zz4=)](https://www.linkedin.com/in/ryanvmorais/)
 
 ---
 
