@@ -53,10 +53,16 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 
 ### 📊 GitHub
 
-<img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3#gh-light-mode-only">
-<img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3#gh-dark-mode-only">
-<img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3#gh-light-mode-only">
-<img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3#gh-dark-mode-only">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
+  <img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
+  <img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
+</picture>
 
 ---
 
@@ -65,7 +71,7 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 Sugestão de tutorial, dúvida ou vontade de trocar uma ideia sobre código e segurança? Escolhe o canal:
 
 [![E-mail](https://img.shields.io/badge/E--mail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@ryanmorais.com.br)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE0NCw3MzM5IEwxNDAsNzMzOSBMMTQwLDczMzIuMDAxIEMxNDAsNzMzMC4wODEgMTM5LjE1Myw3MzI5LjAxIDEzNy42MzQsNzMyOS4wMSBDMTM1Ljk4MSw3MzI5LjAxIDEzNSw3MzMwLjEyNiAxMzUsNzMzMi4wMDEgTDEzNSw3MzM5IEwxMzEsNzMzOSBMMTMxLDczMjYgTDEzNSw3MzI2IEwxMzUsNzMyNy40NjIgQzEzNSw3MzI3LjQ2MiAxMzYuMjU1LDczMjUuMjYgMTM5LjA4Myw3MzI1LjI2IEMxNDEuOTEyLDczMjUuMjYgMTQ0LDczMjYuOTg2IDE0NCw3MzMwLjU1OCBMMTQ0LDczMzkgTDE0NCw3MzM5IFogTTEyNi40NDIsNzMyMy45MjEgQzEyNS4wOTMsNzMyMy45MjEgMTI0LDczMjIuODE5IDEyNCw3MzIxLjQ2IEMxMjQsNzMyMC4xMDIgMTI1LjA5Myw3MzE5IDEyNi40NDIsNzMxOSBDMTI3Ljc5LDczMTkgMTI4Ljg4Myw3MzIwLjEwMiAxMjguODgzLDczMjEuNDYgQzEyOC44ODQsNzMyMi44MTkgMTI3Ljc5LDczMjMuOTIxIDEyNi40NDIsNzMyMy45MjEgTDEyNi40NDIsNzMyMy45MjEgWiBNMTI0LDczMzkgTDEyOSw3MzM5IEwxMjksNzMyNiBMMTI0LDczMjYgTDEyNCw3MzM5IFoiLz48L3N2Zz4=)](https://www.linkedin.com/in/ryanvmorais/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8+PC9zdmc+)](https://www.linkedin.com/in/ryanvmorais/)
 
 ---
 
