@@ -53,16 +53,8 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 
 ### 📊 GitHub
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-  <img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&theme=dark&cache_seconds=14400&v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-  <img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&hide_border=true&locale=pt-br&cache_seconds=14400&v=3">
-</picture>
+<img alt="Estatísticas de Ryan Morais" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&title_color=2f80ed&text_color=768390&icon_color=2f80ed&ring_color=2f80ed&bg_color=00000000&hide_border=true&locale=pt-br&disable_animations=true&cache_seconds=14400&v=4">
+<img alt="Linguagens mais usadas" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&title_color=2f80ed&text_color=768390&icon_color=2f80ed&ring_color=2f80ed&bg_color=00000000&hide_border=true&locale=pt-br&disable_animations=true&cache_seconds=14400&v=4">
 
 ---
 
