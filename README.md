@@ -33,9 +33,8 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 
 ### ▶️ Últimos vídeos no YouTube
 
-> 🎬 Estou em fase de preparação — os primeiros vídeos vêm em breve. Quando a gravação começar, esta lista passa a se atualizar sozinha.
-
 <!-- YOUTUBE:START -->
+> 🎬 Estou em fase de preparação — os primeiros vídeos vêm em breve. Quando a gravação começar, esta lista passa a se atualizar sozinha.
 <!-- YOUTUBE:END -->
 
 ---
