@@ -43,6 +43,8 @@ jobs:
         with:
           feed_list: "https://ryanmorais.com.br/blog/feed/"
           comment_tag_name: "BLOG"
-          max_post_count: 5
+          # 4 itens, o mesmo teto dos vídeos do YouTube e da tabela de repositórios
+          # em destaque: as três listas do perfil têm o mesmo tamanho.
+          max_post_count: 4
           template: "$newLine- [$title]($url)"
           commit_message: "docs: atualiza últimos posts do blog no README"
