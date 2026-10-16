@@ -44,9 +44,7 @@ Blog, newsletter, podcast e softwares, tudo reunido em **[ryanmorais.com.br](htt
 
 ### 📝 Últimos artigos no blog
 
-<!-- BLOG:START -->
-- [Vale a pena aprender programação com a IA gerando código?](https://ryanmorais.com.br/blog/vale-a-pena-aprender-programacao-com-a-ia-gerando/)
-<!-- BLOG:END -->
+<!-- BLOG:START -->$newLine- [Vale a pena aprender programação com a IA gerando código?](https://ryanmorais.com.br/blog/vale-a-pena-aprender-programacao-com-a-ia-gerando/)<!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)
 
