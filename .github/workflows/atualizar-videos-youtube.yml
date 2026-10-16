@@ -44,6 +44,8 @@ jobs:
         with:
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=CANAL_ID"
           comment_tag_name: "YOUTUBE"
-          max_post_count: 5
+          # 4 itens, o mesmo teto dos posts do blog e da tabela de repositórios
+          # em destaque: as três listas do perfil têm o mesmo tamanho.
+          max_post_count: 4
           template: "$newLine- [$title]($url)"
           commit_message: "docs: atualiza últimos vídeos do YouTube no README"
