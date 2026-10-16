@@ -3,7 +3,7 @@
 **Desenvolvedor de software e educador de tecnologia.**
 Ensino programação, IA aplicada e cibersegurança para quem quer sair da teoria e construir coisas reais.
 
-Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramentas open source, laboratórios práticos e projetos documentados passo a passo. A proposta é simples — transformar teoria em solução que você consegue rodar e adaptar às suas necessidades.
+Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramentas open source, laboratórios práticos e projetos documentados passo a passo. A proposta é simples: transformar teoria em solução que você consegue rodar e adaptar às suas necessidades.
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ryanvmorais)
 [![Blog](https://img.shields.io/badge/Blog-2496ED.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ijk2IDAgNDgwIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI4OCAyNEMyODggMTEgMjk5IDAgMzEyIDBDNDU4IDAgNTc2IDExOCA1NzYgMjY0QzU3NiAyNzcgNTY1IDI4OCA1NTIgMjg4QzUzOSAyODggNTI4IDI3NyA1MjggMjY0QzUyOCAxNDUgNDMxIDQ4IDMxMiA0OEMyOTkgNDggMjg4IDM3IDI4OCAyNFpNMTQ0IDk2QzE3MSA5NiAxOTIgMTE4IDE5MiAxNDRWMzY4QzE5MiAzOTUgMjE0IDQxNiAyNDAgNDE2QzI2NyA0MTYgMjg4IDM5NSAyODggMzY4QzI4OCAzNDIgMjY3IDMyMCAyNDAgMzIwQzIzMSAzMjAgMjI0IDMxMyAyMjQgMzA0VjI0MEMyMjQgMjMxIDIzMSAyMjQgMjQwIDIyNEMzMjAgMjI0IDM4NCAyODkgMzg0IDM2OEMzODQgNDQ4IDMyMCA1MTIgMjQwIDUxMkMxNjEgNTEyIDk2IDQ0OCA5NiAzNjhWMTQ0Qzk2IDExOCAxMTggOTYgMTQ0IDk2Wk0zMTIgOTZDNDA1IDk2IDQ4MCAxNzEgNDgwIDI2NEM0ODAgMjc3IDQ2OSAyODggNDU2IDI4OEM0NDMgMjg4IDQzMiAyNzcgNDMyIDI2NEM0MzIgMTk4IDM3OCAxNDQgMzEyIDE0NEMyOTkgMTQ0IDI4OCAxMzMgMjg4IDEyMEMyODggMTA3IDI5OSA5NiAzMTIgOTZaIi8+PC9zdmc+)](https://ryanmorais.com.br/blog/)
@@ -25,16 +25,16 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 | Repositório | O que é |
 | --- | --- |
 | [aprenda-com-ryan-morais](https://github.com/ryanvmorais/aprenda-com-ryan-morais) | Índice de todos os projetos e laboratórios usados nas aulas do canal, incluindo os exercícios de Python para iniciantes (calculadora, jogo da velha, jogo da cobrinha e pedra, papel e tesoura). |
-| [webvigil](https://github.com/ryanvmorais/webvigil) | Scanner de vulnerabilidades web (DAST) em Python — engine reutilizável, CLI e dashboard opcional, seguro por padrão para rodar em produção. Open source (Apache-2.0), publicado no PyPI e como imagem no GHCR. Use apenas em sistemas autorizados. |
-| [django-fullstack-portfolio](https://github.com/ryanvmorais/django-fullstack-portfolio) | Template de portfólio profissional em Django, com segurança avançada (CSP, honeypot, rate limit) e testes automatizados — [veja rodando ao vivo](https://djangofullstackportfolio.pythonanywhere.com/). |
-| [django-blog-culinario](https://github.com/ryanvmorais/django-blog-culinario) | Blog culinário multipáginas em Django — projeto educacional com modelagem, views, templates, autenticação, admin e segurança. |
+| [webvigil](https://github.com/ryanvmorais/webvigil) | Scanner de vulnerabilidades web (DAST) em Python. Engine reutilizável, CLI e dashboard opcional, seguro por padrão para rodar em produção. Open source (Apache-2.0), publicado no PyPI e como imagem no GHCR. Use apenas em sistemas autorizados. |
+| [django-fullstack-portfolio](https://github.com/ryanvmorais/django-fullstack-portfolio) | Template de portfólio profissional em Django, com segurança avançada (CSP, honeypot, rate limit) e testes automatizados. [Veja rodando ao vivo](https://djangofullstackportfolio.pythonanywhere.com/). |
+| [django-blog-culinario](https://github.com/ryanvmorais/django-blog-culinario) | Blog culinário multipáginas em Django. Projeto educacional com modelagem, views, templates, autenticação, admin e segurança. |
 
 ---
 
 ### ▶️ Últimos vídeos no YouTube
 
 <!-- YOUTUBE:START -->
-> 🎬 Estou em fase de preparação — os primeiros vídeos vêm em breve. Quando a gravação começar, esta lista passa a se atualizar sozinha.
+> 🎬 Estou em fase de preparação: os primeiros vídeos vêm em breve. Quando a gravação começar, esta lista passa a se atualizar sozinha.
 <!-- YOUTUBE:END -->
 
 ---
