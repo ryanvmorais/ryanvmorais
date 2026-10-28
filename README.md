@@ -43,6 +43,7 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 
 <!-- BLOG:START -->
 
+- [O desktop mentiu: 3 bugs que meu site escondia no celular](https://ryanmorais.com.br/blog/o-desktop-mentiu-3-bugs-que-meu-site-escondia-no-celular/)
 - [Vale a pena aprender programação com a IA gerando código?](https://ryanmorais.com.br/blog/vale-a-pena-aprender-programacao-com-a-ia-gerando/)
 <!-- BLOG:END -->
 
