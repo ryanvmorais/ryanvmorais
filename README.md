@@ -26,7 +26,7 @@ Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramen
 | --- | --- |
 | [aprenda-com-ryan-morais](https://github.com/ryanvmorais/aprenda-com-ryan-morais) | Índice de todos os projetos e laboratórios usados nas aulas do canal, incluindo os exercícios de Python para iniciantes (calculadora, jogo da velha, jogo da cobrinha e pedra, papel e tesoura). |
 | [webvigil](https://github.com/ryanvmorais/webvigil) | Scanner de vulnerabilidades web (DAST) em Python. Engine reutilizável, CLI e dashboard opcional, seguro por padrão para rodar em produção. Open source (Apache-2.0), publicado no PyPI e como imagem no GHCR. Use apenas em sistemas autorizados. |
-| [django-fullstack-portfolio](https://github.com/ryanvmorais/django-fullstack-portfolio) | Template de portfólio profissional em Django, com segurança avançada (CSP, honeypot, rate limit) e testes automatizados. [Veja rodando ao vivo](https://djangofullstackportfolio.pythonanywhere.com/). |
+| [mailvigil](https://github.com/ryanvmorais/mailvigil) | Analisador de relatórios DMARC em Python, offline e sem dependências. Lê os relatórios agregados (RUA) e diz, em linguagem simples, quem envia e-mail em nome do seu domínio e se já é seguro subir a política para `p=reject`. Open source (Apache-2.0), publicado no PyPI. |
 | [django-blog-culinario](https://github.com/ryanvmorais/django-blog-culinario) | Blog culinário multipáginas em Django. Projeto educacional com modelagem, views, templates, autenticação, admin e segurança. |
 
 ---
