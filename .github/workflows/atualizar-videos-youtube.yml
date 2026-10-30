@@ -13,6 +13,10 @@ name: Atualizar últimos vídeos do YouTube no README
 # preparação", que mora entre os marcadores, continua lá. Quando sair o
 # primeiro vídeo, a lista o substitui sozinha, sem editar o README.
 #
+# O README tem duas versões, README.md e README.en.md: a Action atualiza as duas
+# de uma vez (readme_path aceita vários arquivos, separados por vírgula). Os
+# títulos dos vídeos vêm como o canal os publica.
+#
 # PARA LIGAR NO PRIMEIRO VÍDEO (o agendamento está desligado de propósito):
 #
 # 1. Publique o vídeo e espere ele aparecer no feed (de alguns minutos a
@@ -49,6 +53,7 @@ jobs:
         with:
           feed_list: "https://www.youtube.com/feeds/videos.xml?channel_id=UCIwlroMxTGcwdM2zPu2a6NQ"
           comment_tag_name: "YOUTUBE"
+          readme_path: "README.md,README.en.md"
           # 4 itens, o mesmo teto dos posts do blog e da tabela de repositórios
           # em destaque: as três listas do perfil têm o mesmo tamanho.
           max_post_count: 4
