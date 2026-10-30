@@ -1,22 +1,25 @@
 # Ryan Morais
 
-**Desenvolvedor de software e educador de tecnologia.**
-Ensino programação, IA aplicada e cibersegurança para quem quer sair da teoria e construir coisas reais.
+**Português (Brasil)** · [English](README.en.md)
 
-Aqui no GitHub eu publico o código que sustenta as aulas do meu canal: ferramentas open source, laboratórios práticos e projetos documentados passo a passo. A proposta é simples: transformar teoria em solução que você consegue rodar e adaptar às suas necessidades.
+**Desenvolvedor de software e educador em tecnologia.**
+Ensino programação, IA e cibersegurança para quem quer sair da teoria e construir coisas reais.
+
+Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open source, laboratórios práticos e projetos documentados passo a passo. A ideia é simples: transformar teoria em algo que você consegue rodar e adaptar.
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ryanvmorais)
 [![Blog](https://img.shields.io/badge/Blog-2496ED.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ijk2IDAgNDgwIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI4OCAyNEMyODggMTEgMjk5IDAgMzEyIDBDNDU4IDAgNTc2IDExOCA1NzYgMjY0QzU3NiAyNzcgNTY1IDI4OCA1NTIgMjg4QzUzOSAyODggNTI4IDI3NyA1MjggMjY0QzUyOCAxNDUgNDMxIDQ4IDMxMiA0OEMyOTkgNDggMjg4IDM3IDI4OCAyNFpNMTQ0IDk2QzE3MSA5NiAxOTIgMTE4IDE5MiAxNDRWMzY4QzE5MiAzOTUgMjE0IDQxNiAyNDAgNDE2QzI2NyA0MTYgMjg4IDM5NSAyODggMzY4QzI4OCAzNDIgMjY3IDMyMCAyNDAgMzIwQzIzMSAzMjAgMjI0IDMxMyAyMjQgMzA0VjI0MEMyMjQgMjMxIDIzMSAyMjQgMjQwIDIyNEMzMjAgMjI0IDM4NCAyODkgMzg0IDM2OEMzODQgNDQ4IDMyMCA1MTIgMjQwIDUxMkMxNjEgNTEyIDk2IDQ0OCA5NiAzNjhWMTQ0Qzk2IDExOCAxMTggOTYgMTQ0IDk2Wk0zMTIgOTZDNDA1IDk2IDQ4MCAxNzEgNDgwIDI2NEM0ODAgMjc3IDQ2OSAyODggNDU2IDI4OEM0NDMgMjg4IDQzMiAyNzcgNDMyIDI2NEM0MzIgMTk4IDM3OCAxNDQgMzEyIDE0NEMyOTkgMTQ0IDI4OCAxMzMgMjg4IDEyMEMyODggMTA3IDI5OSA5NiAzMTIgOTZaIi8+PC9zdmc+)](https://ryanmorais.com.br/blog/)
 [![Newsletter](https://img.shields.io/badge/Newsletter-1A1A2E.svg?style=for-the-badge&logo=maildotru&logoColor=white)](https://ryanmorais.com.br/newsletter/)
-[![Spotify](https://img.shields.io/badge/Spotify-%1ED760.svg?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/show/6zBFi3plnkSIMmT4bDY7i1)
+[![Podcast](https://img.shields.io/badge/Podcast-%1ED760.svg?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/show/6zBFi3plnkSIMmT4bDY7i1)
 
 ---
 
 ### 🎯 O que eu faço
 
-- **Construo** aplicações web de ponta a ponta, do banco de dados à interface, com código testado, tipado e entregue por um processo automático. O mesmo vale para sites, APIs e ferramentas CLI.
-- **Protejo** com cibersegurança e inteligência artificial como parte do trabalho: analiso vulnerabilidades, sigo boas práticas reconhecidas e uso modelos de linguagem e agentes para automatizar tarefas e acelerar o desenvolvimento.
-- **Ensino** no blog, em vídeos, no podcast e numa newsletter por semana, explicando o porquê e não só o comando.
+- **Construo** aplicações web de ponta a ponta, do banco de dados à interface, além de sites, APIs e ferramentas CLI. Código testado, tipado e entregue por processo automático.
+- **Protejo** o que construo. Analiso vulnerabilidades e sigo boas práticas de segurança, porque segurança não é assunto à parte.
+- **Automatizo** com IA. Uso modelos de linguagem e agentes para tirar tarefas repetitivas do caminho e acelerar o desenvolvimento.
+- **Ensino** no blog, em vídeos, no podcast e na newsletter semanal, explicando o porquê e não só o comando.
 
 ---
 
