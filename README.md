@@ -37,7 +37,7 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 ### ▶️ Últimos vídeos no YouTube
 
 <!-- YOUTUBE:START -->
-> 🎬 Estou em fase de preparação: os primeiros vídeos vêm em breve. Quando a gravação começar, esta lista passa a se atualizar sozinha.
+> 🎬 Ainda não há vídeos publicados. Quando houver, esta lista se atualiza sozinha.
 <!-- YOUTUBE:END -->
 
 ---

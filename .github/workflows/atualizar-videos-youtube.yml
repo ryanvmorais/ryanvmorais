@@ -9,23 +9,16 @@ name: Atualizar últimos vídeos do YouTube no README
 #      <!-- YOUTUBE:END -->
 #
 # Enquanto o canal não tem vídeo público, a action só registra
-# "0 blog posts fetched" e não altera o README: o aviso de "em fase de
-# preparação", que mora entre os marcadores, continua lá. Quando sair o
+# "0 blog posts fetched" e não altera o README: o aviso de "ainda não há
+# vídeos publicados", que mora entre os marcadores, continua lá. Quando sair o
 # primeiro vídeo, a lista o substitui sozinha, sem editar o README.
 #
 # O README tem duas versões, README.md e README.en.md: a Action atualiza as duas
 # de uma vez (readme_path aceita vários arquivos, separados por vírgula). Os
 # títulos dos vídeos vêm como o canal os publica.
 #
-# PARA LIGAR NO PRIMEIRO VÍDEO (o agendamento está desligado de propósito):
-#
-# 1. Publique o vídeo e espere ele aparecer no feed (de alguns minutos a
-#    algumas horas).
-#
-# 2. Rode uma vez à mão (aba Actions > Run workflow) e confira o README e o
-#    log da execução.
-#
-# 3. Descomente o bloco "schedule" abaixo.
+# O agendamento fica desligado até o canal ter vídeo público: para ligar,
+# descomente o bloco "schedule" abaixo.
 #
 # O feed traz só vídeos públicos, os 15 mais recentes, e inclui os Shorts.
 # ---------------------------------------------------------------------------
