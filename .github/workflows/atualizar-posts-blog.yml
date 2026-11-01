@@ -3,9 +3,8 @@ name: Atualizar últimos posts do blog no README
 # ---------------------------------------------------------------------------
 # COMO FUNCIONA:
 #
-# Todo dia o workflow lê o feed RSS do blog (https://ryanmorais.com.br/blog/feed/,
-# gerado pelo projeto site-ryan-morais com o django.contrib.syndication) e
-# reescreve a lista de artigos do README entre os marcadores:
+# Todo dia o workflow lê o feed RSS do blog (https://ryanmorais.com.br/blog/feed/)
+# e reescreve a lista de artigos do README entre os marcadores:
 #      <!-- BLOG:START -->
 #      <!-- BLOG:END -->
 #
