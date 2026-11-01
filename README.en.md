@@ -38,7 +38,7 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 
 <!-- YOUTUBE:START -->
 
-> 🎬 I'm in the preparation phase: the first videos are coming soon. Once recording starts, this list updates itself.
+> 🎬 No videos have been published yet. Once there are some, this list updates itself.
 
 <!-- YOUTUBE:END -->
 
