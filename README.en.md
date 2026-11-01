@@ -31,7 +31,6 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 | [webvigil](https://github.com/ryanvmorais/webvigil) | Web vulnerability scanner (DAST) in Python. Reusable engine, CLI and optional dashboard, safe by default to run in production. Open source (Apache-2.0), published on PyPI and as an image on GHCR. Use only on systems you are authorized to test. |
 | [mailvigil](https://github.com/ryanvmorais/mailvigil) | DMARC report analyzer in Python, offline and dependency-free. Reads the aggregate reports (RUA) and tells you, in plain language, who sends email on behalf of your domain and whether it is already safe to raise the policy to `p=reject`. Open source (Apache-2.0), published on PyPI. |
 | [dmarc-facil](https://github.com/ryanvmorais/dmarc-facil) | DMARC, SPF and DKIM checker that runs in the browser. Queries DNS over HTTPS, explains each record in Brazilian Portuguese and shows the next step (`p=none`, `p=quarantine`, `p=reject`). No server and no dependencies. Open source (Apache-2.0). [Try it online](https://dmarcfacil.ryanmorais.com.br) (interface in Portuguese). |
-| [django-blog-culinario](https://github.com/ryanvmorais/django-blog-culinario) | Multi-page cooking blog in Django. Educational project covering modeling, views, templates, authentication, admin and security. |
 
 ---
 
