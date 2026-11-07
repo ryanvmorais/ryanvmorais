@@ -28,8 +28,8 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 | Repositório | O que é |
 | --- | --- |
 | [aprenda-com-ryan-morais](https://github.com/ryanvmorais/aprenda-com-ryan-morais) | Índice de todos os projetos, laboratórios e exercícios usados nas aulas e nos tutoriais. Comece por aqui para encontrar o código de cada conteúdo e rodar você mesmo. |
-| [webvigil](https://github.com/ryanvmorais/webvigil) | Scanner de vulnerabilidades web (DAST) em Python. Engine reutilizável, CLI e dashboard opcional, seguro por padrão para rodar em produção. Open source (Apache-2.0), publicado no PyPI e como imagem no GHCR. Use apenas em sistemas autorizados. |
-| [mailvigil](https://github.com/ryanvmorais/mailvigil) | Analisador de relatórios DMARC em Python, offline e sem dependências. Lê os relatórios agregados (RUA) e diz, em linguagem simples, quem envia e-mail em nome do seu domínio e se já é seguro subir a política para `p=reject`. Open source (Apache-2.0), publicado no PyPI. |
+| [webvigil](https://github.com/ryanvmorais/webvigil) | Scanner de vulnerabilidades web (DAST) em Python. Engine reutilizável, CLI e dashboard opcional, seguro por padrão para rodar em produção. Open source (Apache-2.0), publicado no PyPI e como imagem no GHCR. [Veja o site](https://webvigil.ryanmorais.com.br). Use apenas em sistemas autorizados. |
+| [mailvigil](https://github.com/ryanvmorais/mailvigil) | Analisador de relatórios DMARC em Python, offline e sem dependências. Lê os relatórios agregados (RUA) e diz, em linguagem simples, quem envia e-mail em nome do seu domínio e se já é seguro subir a política para `p=reject`. Open source (Apache-2.0), publicado no PyPI. [Veja o site](https://mailvigil.ryanmorais.com.br). |
 | [dmarc-facil](https://github.com/ryanvmorais/dmarc-facil) | Verificador de DMARC, SPF e DKIM que roda no navegador. Consulta o DNS por DNS-over-HTTPS, explica cada registro em português e mostra o próximo passo (`p=none`, `p=quarantine`, `p=reject`). Sem servidor e sem dependências. Open source (Apache-2.0). [Use online](https://dmarcfacil.ryanmorais.com.br). |
 
 ---
