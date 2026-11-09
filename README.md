@@ -46,6 +46,8 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 
 <!-- BLOG:START -->
 
+- [Como testar seu site com leitor de tela &lpar;NVDA&rpar; em 15 minutos](https://ryanmorais.com.br/blog/como-testar-seu-site-com-leitor-de-tela-nvda-em-15-minutos/)
+- [Como ler um relatório DMARC e saber se já pode usar p=reject](https://ryanmorais.com.br/blog/como-ler-um-relatorio-dmarc-e-saber-se-ja-pode-usar-p-reject/)
 - [O desktop mentiu: 3 bugs que meu site escondia no celular](https://ryanmorais.com.br/blog/o-desktop-mentiu-3-bugs-que-meu-site-escondia-no-celular/)
 - [Vale a pena aprender programação com a IA gerando código?](https://ryanmorais.com.br/blog/vale-a-pena-aprender-programacao-com-a-ia-gerando/)
 <!-- BLOG:END -->
