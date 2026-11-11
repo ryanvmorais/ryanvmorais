@@ -14,6 +14,11 @@ updates:
       day: "sunday"
       time: "09:00"
       timezone: "America/Sao_Paulo"
+    # Espera 7 dias depois da publicação de uma versão antes de propor o bump:
+    # dá tempo de uma versão comprometida ser retirada. Não vale para as
+    # security updates.
+    cooldown:
+      default-days: 7
     open-pull-requests-limit: 5
     commit-message:
       prefix: "ci"
