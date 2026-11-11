@@ -18,7 +18,8 @@ name: Atualizar últimos posts do blog no README
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 5 * * *" # todo dia às 05:30 UTC
+    # Todo dia às 02:30 em São Paulo (05:30 UTC).
+    - cron: "30 5 * * *"
 
 permissions:
   contents: write
@@ -26,6 +27,9 @@ permissions:
 jobs:
   atualizar:
     runs-on: ubuntu-26.04
+    # Roda em segundos (lê um feed e reescreve dois arquivos); o teto só corta
+    # um run travado.
+    timeout-minutes: 5
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -42,7 +46,7 @@ jobs:
           # 4 itens, o mesmo teto dos vídeos do YouTube e da tabela de repositórios
           # em destaque: as três listas do perfil têm o mesmo tamanho.
           max_post_count: 4
-          # $newline em minusculas: a action so reconhece esse nome
+          # $newline em minúsculas: a action só reconhece esse nome
           template: "$newline- [$title]($url)"
           tag_post_pre_newline: true
           commit_message: "docs: atualiza últimos posts do blog no README"
