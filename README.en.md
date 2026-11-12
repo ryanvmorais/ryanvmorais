@@ -48,10 +48,10 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 
 <!-- BLOG:START -->
 
+- [Chave vazada no Git: o que fazer nos primeiros 15 minutos](https://ryanmorais.com.br/blog/chave-vazada-no-git-o-que-fazer-nos-primeiros-15-minutos/)
 - [Backup que ninguém restaurou não é backup](https://ryanmorais.com.br/blog/backup-que-ninguem-restaurou-nao-e-backup/)
 - [Revisar código de IA: 4 verificações antes de aceitar](https://ryanmorais.com.br/blog/revisar-codigo-de-ia-4-verificacoes-antes-de-aceitar/)
 - [Como testar seu site com leitor de tela &lpar;NVDA&rpar; em 15 minutos](https://ryanmorais.com.br/blog/como-testar-seu-site-com-leitor-de-tela-nvda-em-15-minutos/)
-- [Como ler um relatório DMARC e saber se já pode usar p=reject](https://ryanmorais.com.br/blog/como-ler-um-relatorio-dmarc-e-saber-se-ja-pode-usar-p-reject/)
 <!-- BLOG:END -->
 
 [See all articles (in Portuguese) →](https://ryanmorais.com.br/blog/)
