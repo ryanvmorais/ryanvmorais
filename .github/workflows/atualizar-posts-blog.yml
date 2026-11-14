@@ -12,6 +12,14 @@ name: Atualizar últimos posts do blog no README
 # de uma vez (readme_path aceita vários arquivos, separados por vírgula). Os
 # artigos são em português nas duas.
 #
+# São dois jobs, de propósito (o mesmo desenho do workflow dos cartões):
+#   - "gerar" roda a Action de terceiro com contents: read e sem credencial
+#     persistida, e só reescreve os arquivos (skip_commit);
+#   - "publicar" só usa Actions oficiais e git, e é o único com contents: write.
+#
+# Em pull request que mexe neste arquivo (inclusive os do Dependabot), roda só o
+# "gerar": os READMEs ficam como artifact do run, para conferir antes do merge.
+#
 # Para atualizar na hora, sem esperar o agendamento: aba Actions > Run workflow.
 # ---------------------------------------------------------------------------
 
@@ -20,24 +28,35 @@ on:
   schedule:
     # Todo dia às 02:30 em São Paulo (05:30 UTC).
     - cron: "30 5 * * *"
+  pull_request:
+    paths:
+      - ".github/workflows/atualizar-posts-blog.yml"
 
-permissions:
-  contents: write
+permissions: {}
+
+# Dois runs ao mesmo tempo disputariam o push na main.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  atualizar:
+  gerar:
+    name: Gerar os READMEs
     runs-on: ubuntu-26.04
     # Roda em segundos (lê um feed e reescreve dois arquivos); o teto só corta
     # um run travado.
     timeout-minutes: 5
+    permissions:
+      contents: read
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
       - name: Puxar posts do feed do blog
-        # Fixada por SHA, nunca @master: é Action de terceiro e roda com
-        # contents: write. O Dependabot lê o comentário de versão e propõe o
-        # SHA novo (dependabot.yml).
+        # Fixada por SHA, nunca @master: é Action de terceiro. O Dependabot lê o
+        # comentário de versão e propõe o SHA novo (dependabot.yml).
         uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # 1.9.7
         with:
           feed_list: "https://ryanmorais.com.br/blog/feed/"
@@ -49,4 +68,50 @@ jobs:
           # $newline em minúsculas: a action só reconhece esse nome
           template: "$newline- [$title]($url)"
           tag_post_pre_newline: true
-          commit_message: "docs: atualiza últimos posts do blog no README"
+          # Só reescreve os arquivos; quem commita é o job "publicar". O
+          # keepalive (commit vazio depois de 50 dias parado) também precisaria
+          # de escrita, e o repositório já recebe commit todo dia.
+          skip_commit: "true"
+          enable_keepalive: "false"
+
+      - name: Guardar os READMEs
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: readmes
+          path: |
+            README.md
+            README.en.md
+          if-no-files-found: error
+          retention-days: 3
+
+  publicar:
+    name: Commitar os READMEs
+    needs: gerar
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      # Credencial persistida de propósito: o git push abaixo precisa dela, e
+      # neste job não roda código de terceiro.
+      - name: Checkout do repositório
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Baixar os READMEs
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: readmes
+          path: .
+
+      - name: Commitar se a lista mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README.en.md
+          if git diff --cached --quiet; then
+            echo "Nenhum post novo."
+            exit 0
+          fi
+          git commit -m "docs: atualiza últimos posts do blog no README"
+          git push
