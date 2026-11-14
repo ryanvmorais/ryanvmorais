@@ -46,10 +46,10 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 
 <!-- BLOG:START -->
 
+- [O que as quedas da AWS e da Cloudflare ensinam](https://ryanmorais.com.br/blog/o-que-as-quedas-da-aws-e-da-cloudflare-ensinam/)
 - [PWA: o que transforma um site em app instalável](https://ryanmorais.com.br/blog/pwa-o-que-transforma-um-site-em-app-instalavel/)
 - [Chave vazada no Git: o que fazer nos primeiros 15 minutos](https://ryanmorais.com.br/blog/chave-vazada-no-git-o-que-fazer-nos-primeiros-15-minutos/)
 - [Backup que ninguém restaurou não é backup](https://ryanmorais.com.br/blog/backup-que-ninguem-restaurou-nao-e-backup/)
-- [Revisar código de IA: 4 verificações antes de aceitar](https://ryanmorais.com.br/blog/revisar-codigo-de-ia-4-verificacoes-antes-de-aceitar/)
 <!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)
