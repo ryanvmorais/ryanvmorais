@@ -60,7 +60,7 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 
 ### 📊 GitHub
 
-<img alt="Ryan Morais GitHub stats" src="https://github-stats-extended-ryanvmorais.vercel.app/api?username=ryanvmorais&show_icons=true&title_color=2f80ed&text_color=768390&icon_color=2f80ed&ring_color=2f80ed&bg_color=00000000&hide_border=true&disable_animations=true&cache_seconds=14400&v=4"> <img alt="Most used languages" src="https://github-stats-extended-ryanvmorais.vercel.app/api/top-langs/?username=ryanvmorais&layout=compact&title_color=2f80ed&text_color=768390&icon_color=2f80ed&ring_color=2f80ed&bg_color=00000000&hide_border=true&disable_animations=true&cache_seconds=14400&v=4">
+<img alt="Ryan Morais GitHub stats" src="assets/cartoes/estatisticas-en.svg"> <img alt="Most used languages" src="assets/cartoes/linguagens-en.svg">
 
 ---
 
