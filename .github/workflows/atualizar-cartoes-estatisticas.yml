@@ -1,0 +1,140 @@
+name: Atualizar cartões de estatísticas do README
+
+# ---------------------------------------------------------------------------
+# COMO FUNCIONA:
+#
+# Todo dia o workflow gera os dois cartões de estatísticas do perfil (números
+# do GitHub e linguagens mais usadas) como SVG, em português e em inglês, e os
+# commita em assets/cartoes/. Os dois READMEs mostram esses arquivos pelo
+# caminho relativo, sem depender de serviço externo.
+#
+# São dois jobs, de propósito:
+#   - "gerar" roda a Action de terceiro com contents: read e sem checkout, então
+#     ela nunca recebe um token que grava no repositório;
+#   - "publicar" só usa Actions oficiais e git, e é o único com contents: write.
+#
+# Em pull request que mexe neste arquivo (inclusive os do Dependabot), roda só o
+# "gerar": os SVGs ficam como artifact do run, para conferir antes do merge.
+#
+# Para atualizar na hora, sem esperar o agendamento: aba Actions > Run workflow.
+# ---------------------------------------------------------------------------
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Todo dia às 03:15 em São Paulo (06:15 UTC), longe do workflow do blog.
+    - cron: "15 6 * * *"
+  pull_request:
+    paths:
+      - ".github/workflows/atualizar-cartoes-estatisticas.yml"
+
+permissions: {}
+
+# Dois runs ao mesmo tempo disputariam o push na main.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  # Parâmetros comuns aos dois cartões. Fundo transparente (bg_color com alfa 00)
+  # e sem borda: o mesmo cartão serve ao tema claro e ao escuro do GitHub.
+  CORES: "title_color=2f80ed&text_color=768390&icon_color=2f80ed&ring_color=2f80ed&bg_color=00000000&hide_border=true&disable_animations=true"
+
+jobs:
+  gerar:
+    name: Gerar os SVGs
+    runs-on: ubuntu-26.04
+    # Cada cartão leva segundos (instala a Action e faz poucas consultas à API);
+    # o teto só corta um run travado.
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      # A Action é fixada por SHA, nunca @v2: é código de terceiro. O Dependabot
+      # lê o comentário de versão e propõe o SHA novo (dependabot.yml).
+      #
+      # core_version vazio: usa a biblioteca que vem no lockfile da própria
+      # Action. O padrão ("v2") instala do npm, na hora, a versão 2.x mais nova,
+      # o que contornaria a fixação por SHA.
+      #
+      # fail_on_error: com erro de API, o run falha e o cartão bom de ontem fica,
+      # em vez de commitar o cartão "Something went wrong".
+      - name: Cartão de estatísticas (português)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&locale=pt-br&${{ env.CORES }}"
+          path: assets/cartoes/estatisticas.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: "true"
+
+      - name: Cartão de estatísticas (inglês)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: "username=${{ github.repository_owner }}&show_icons=true&${{ env.CORES }}"
+          path: assets/cartoes/estatisticas-en.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: "true"
+
+      - name: Cartão de linguagens (português)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&locale=pt-br&${{ env.CORES }}"
+          path: assets/cartoes/linguagens.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: "true"
+
+      - name: Cartão de linguagens (inglês)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: "username=${{ github.repository_owner }}&layout=compact&${{ env.CORES }}"
+          path: assets/cartoes/linguagens-en.svg
+          token: ${{ github.token }}
+          core_version: ""
+          fail_on_error: "true"
+
+      - name: Guardar os SVGs
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: cartoes
+          path: assets/cartoes/*.svg
+          if-no-files-found: error
+          retention-days: 3
+
+  publicar:
+    name: Commitar os SVGs
+    needs: gerar
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      # Credencial persistida de propósito: o git push abaixo precisa dela, e
+      # neste job não roda código de terceiro.
+      - name: Checkout do repositório
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Baixar os SVGs
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: cartoes
+          path: assets/cartoes
+
+      - name: Commitar se algum cartão mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/cartoes/*.svg
+          if git diff --cached --quiet; then
+            echo "Nenhum cartão mudou."
+            exit 0
+          fi
+          git commit -m "docs: atualiza cartões de estatísticas do README"
+          git push
