@@ -54,9 +54,13 @@ jobs:
     permissions:
       contents: read
     steps:
+      # A Action roda "git pull" antes de reescrever o README, e o pull falha
+      # em HEAD destacado. Em pull request, o checkout vai para a branch do PR;
+      # fora dele, head_ref vem vazio e vale o padrão (a branch do evento).
       - name: Checkout do repositório
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
+          ref: ${{ github.head_ref }}
           persist-credentials: false
 
       - name: Puxar vídeos do feed do canal
