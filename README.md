@@ -46,10 +46,10 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 
 <!-- BLOG:START -->
 
+- [O simulador não basta: teste o site no seu celular](https://ryanmorais.com.br/blog/o-simulador-nao-basta-teste-o-site-no-seu-celular/)
 - [Prompt injection: quando o texto que a IA lê vira ordem](https://ryanmorais.com.br/blog/prompt-injection-quando-o-texto-que-a-ia-le-vira-ordem/)
 - [O que as quedas da AWS e da Cloudflare ensinam](https://ryanmorais.com.br/blog/o-que-as-quedas-da-aws-e-da-cloudflare-ensinam/)
 - [PWA: o que transforma um site em app instalável](https://ryanmorais.com.br/blog/pwa-o-que-transforma-um-site-em-app-instalavel/)
-- [Chave vazada no Git: o que fazer nos primeiros 15 minutos](https://ryanmorais.com.br/blog/chave-vazada-no-git-o-que-fazer-nos-primeiros-15-minutos/)
 <!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)

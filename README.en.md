@@ -48,10 +48,10 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 
 <!-- BLOG:START -->
 
+- [O simulador não basta: teste o site no seu celular](https://ryanmorais.com.br/blog/o-simulador-nao-basta-teste-o-site-no-seu-celular/)
 - [Prompt injection: quando o texto que a IA lê vira ordem](https://ryanmorais.com.br/blog/prompt-injection-quando-o-texto-que-a-ia-le-vira-ordem/)
 - [O que as quedas da AWS e da Cloudflare ensinam](https://ryanmorais.com.br/blog/o-que-as-quedas-da-aws-e-da-cloudflare-ensinam/)
 - [PWA: o que transforma um site em app instalável](https://ryanmorais.com.br/blog/pwa-o-que-transforma-um-site-em-app-instalavel/)
-- [Chave vazada no Git: o que fazer nos primeiros 15 minutos](https://ryanmorais.com.br/blog/chave-vazada-no-git-o-que-fazer-nos-primeiros-15-minutos/)
 <!-- BLOG:END -->
 
 [See all articles (in Portuguese) →](https://ryanmorais.com.br/blog/)
