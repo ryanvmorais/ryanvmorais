@@ -46,10 +46,10 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 
 <!-- BLOG:START -->
 
+- [Os minutos do GitHub Actions acabaram: como economizar](https://ryanmorais.com.br/blog/os-minutos-do-github-actions-acabaram-como-economizar/)
 - [SPF, DKIM e DMARC: o que cada um confere](https://ryanmorais.com.br/blog/spf-dkim-e-dmarc-o-que-cada-um-confere/)
 - [O simulador não basta: teste o site no seu celular](https://ryanmorais.com.br/blog/o-simulador-nao-basta-teste-o-site-no-seu-celular/)
 - [Prompt injection: quando o texto que a IA lê vira ordem](https://ryanmorais.com.br/blog/prompt-injection-quando-o-texto-que-a-ia-le-vira-ordem/)
-- [O que as quedas da AWS e da Cloudflare ensinam](https://ryanmorais.com.br/blog/o-que-as-quedas-da-aws-e-da-cloudflare-ensinam/)
 <!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)
