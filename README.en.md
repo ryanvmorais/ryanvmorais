@@ -10,7 +10,7 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@ryanvmorais)
 [![Blog](https://img.shields.io/badge/Blog-2496ED.svg?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ijk2IDAgNDgwIDUxMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI4OCAyNEMyODggMTEgMjk5IDAgMzEyIDBDNDU4IDAgNTc2IDExOCA1NzYgMjY0QzU3NiAyNzcgNTY1IDI4OCA1NTIgMjg4QzUzOSAyODggNTI4IDI3NyA1MjggMjY0QzUyOCAxNDUgNDMxIDQ4IDMxMiA0OEMyOTkgNDggMjg4IDM3IDI4OCAyNFpNMTQ0IDk2QzE3MSA5NiAxOTIgMTE4IDE5MiAxNDRWMzY4QzE5MiAzOTUgMjE0IDQxNiAyNDAgNDE2QzI2NyA0MTYgMjg4IDM5NSAyODggMzY4QzI4OCAzNDIgMjY3IDMyMCAyNDAgMzIwQzIzMSAzMjAgMjI0IDMxMyAyMjQgMzA0VjI0MEMyMjQgMjMxIDIzMSAyMjQgMjQwIDIyNEMzMjAgMjI0IDM4NCAyODkgMzg0IDM2OEMzODQgNDQ4IDMyMCA1MTIgMjQwIDUxMkMxNjEgNTEyIDk2IDQ0OCA5NiAzNjhWMTQ0Qzk2IDExOCAxMTggOTYgMTQ0IDk2Wk0zMTIgOTZDNDA1IDk2IDQ4MCAxNzEgNDgwIDI2NEM0ODAgMjc3IDQ2OSAyODggNDU2IDI4OEM0NDMgMjg4IDQzMiAyNzcgNDMyIDI2NEM0MzIgMTk4IDM3OCAxNDQgMzEyIDE0NEMyOTkgMTQ0IDI4OCAxMzMgMjg4IDEyMEMyODggMTA3IDI5OSA5NiAzMTIgOTZaIi8+PC9zdmc+)](https://ryanmorais.com.br/blog/)
 [![Newsletter](https://img.shields.io/badge/Newsletter-1A1A2E.svg?style=for-the-badge&logo=maildotru&logoColor=white)](https://ryanmorais.com.br/newsletter/)
-[![Podcast](https://img.shields.io/badge/Podcast-%1ED760.svg?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/show/6zBFi3plnkSIMmT4bDY7i1)
+[![Podcast](https://img.shields.io/badge/Podcast-%231ED760.svg?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/show/6zBFi3plnkSIMmT4bDY7i1)
 
 ---
 
@@ -30,19 +30,12 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 | [aprenda-com-ryan-morais](https://github.com/ryanvmorais/aprenda-com-ryan-morais) | Index of every project, lab and exercise used in the lessons and tutorials. Start here to find the code behind each piece of content and run it yourself. |
 | [webvigil](https://github.com/ryanvmorais/webvigil) | Web vulnerability scanner (DAST) in Python. Reusable engine, CLI and optional dashboard, safe by default to run in production. Open source (Apache-2.0), published on PyPI and as an image on GHCR. [See the website](https://webvigil.ryanmorais.com.br/en/). Use only on systems you are authorized to test. |
 | [mailvigil](https://github.com/ryanvmorais/mailvigil) | DMARC report analyzer in Python, offline and dependency-free. Reads the aggregate reports (RUA) and tells you, in plain language, who sends email on behalf of your domain and whether it is already safe to raise the policy to `p=reject`. Open source (Apache-2.0), published on PyPI. [See the website](https://mailvigil.ryanmorais.com.br/en/). |
-| [dmarc-facil](https://github.com/ryanvmorais/dmarc-facil) | DMARC, SPF and DKIM checker that runs in the browser. Queries DNS over HTTPS, explains each record in Brazilian Portuguese and shows the next step (`p=none`, `p=quarantine`, `p=reject`). No server and no dependencies. Open source (Apache-2.0). [Try it online](https://dmarcfacil.ryanmorais.com.br) (interface in Portuguese). |
+| [dmarc-facil](https://github.com/ryanvmorais/dmarc-facil) | DMARC, SPF and DKIM checker that runs in the browser. Queries DNS over HTTPS, explains each record in Brazilian Portuguese and shows the next step (`p=none`, `p=quarantine`, `p=reject`). No server and no dependencies. Open source (Apache-2.0). [Try it online](https://dmarc-facil.ryanmorais.com.br) (interface in Portuguese). |
 
 ---
-
-### ▶️ Latest YouTube videos
 
 <!-- YOUTUBE:START -->
-
-> 🎬 No videos have been published yet. Once there are some, this list updates itself.
-
 <!-- YOUTUBE:END -->
-
----
 
 ### 📝 Latest blog articles
 
