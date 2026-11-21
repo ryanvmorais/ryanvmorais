@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Estat&#237;sticas do GitHub de Ryan Morais, Rank: B+</title>
-        <desc id="descId">Total de estrelas: 3, Total de Commits  (Ano passado) : 1097, Total de PRs: 748, Total de Issues: 83, Contribuiu para (ano passado): 0</desc>
+        <desc id="descId">Total de estrelas: 3, Total de Commits  (Ano passado) : 1124, Total de PRs: 775, Total de Issues: 83, Contribuiu para (ano passado): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 121.53082859893496;
+        stroke-dashoffset: 121.3859138540915;
       }
     }
   
@@ -199,7 +199,7 @@
         x="274.01"
         y="12.5"
         data-testid="prs"
-      >748</text>
+      >775</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
