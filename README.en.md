@@ -41,10 +41,10 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 
 <!-- BLOG:START -->
 
+- [Banner de cookies: o que a LGPD de fato exige](https://ryanmorais.com.br/blog/banner-de-cookies-o-que-a-lgpd-de-fato-exige/)
+- [CSS e JavaScript que já dá para usar sem biblioteca](https://ryanmorais.com.br/blog/css-e-javascript-que-ja-da-para-usar-sem-biblioteca/)
 - [Workflow malicioso no GitHub Actions: as três travas](https://ryanmorais.com.br/blog/workflow-malicioso-no-github-actions-as-tres-travas/)
 - [ECA Digital: o que muda para quem tem site ou app](https://ryanmorais.com.br/blog/eca-digital-o-que-muda-para-quem-tem-site-ou-app/)
-- [Os minutos do GitHub Actions acabaram: como economizar](https://ryanmorais.com.br/blog/os-minutos-do-github-actions-acabaram-como-economizar/)
-- [SPF, DKIM e DMARC: o que cada um confere](https://ryanmorais.com.br/blog/spf-dkim-e-dmarc-o-que-cada-um-confere/)
 <!-- BLOG:END -->
 
 [See all articles (in Portuguese) →](https://ryanmorais.com.br/blog/)
