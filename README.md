@@ -41,10 +41,10 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 
 <!-- BLOG:START -->
 
+- [Python 3.15 no Django: o que muda e o que conferir](https://ryanmorais.com.br/blog/python-3-15-no-django-o-que-muda-e-o-que-conferir/)
 - [Banner de cookies: o que a LGPD de fato exige](https://ryanmorais.com.br/blog/banner-de-cookies-o-que-a-lgpd-de-fato-exige/)
 - [CSS e JavaScript que já dá para usar sem biblioteca](https://ryanmorais.com.br/blog/css-e-javascript-que-ja-da-para-usar-sem-biblioteca/)
 - [Workflow malicioso no GitHub Actions: as três travas](https://ryanmorais.com.br/blog/workflow-malicioso-no-github-actions-as-tres-travas/)
-- [ECA Digital: o que muda para quem tem site ou app](https://ryanmorais.com.br/blog/eca-digital-o-que-muda-para-quem-tem-site-ou-app/)
 <!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)
