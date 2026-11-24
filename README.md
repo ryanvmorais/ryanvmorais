@@ -41,10 +41,10 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 
 <!-- BLOG:START -->
 
+- [Devs e IA em 2026: o que as pesquisas mostram a quem começa](https://ryanmorais.com.br/blog/devs-e-ia-em-2026-o-que-as-pesquisas-mostram-a-quem-comeca/)
+- [2FA não é tudo igual: passkey, app, push e SMS](https://ryanmorais.com.br/blog/2fa-nao-e-tudo-igual-passkey-app-push-e-sms/)
 - [Python 3.15 no Django: o que muda e o que conferir](https://ryanmorais.com.br/blog/python-3-15-no-django-o-que-muda-e-o-que-conferir/)
 - [Banner de cookies: o que a LGPD de fato exige](https://ryanmorais.com.br/blog/banner-de-cookies-o-que-a-lgpd-de-fato-exige/)
-- [CSS e JavaScript que já dá para usar sem biblioteca](https://ryanmorais.com.br/blog/css-e-javascript-que-ja-da-para-usar-sem-biblioteca/)
-- [Workflow malicioso no GitHub Actions: as três travas](https://ryanmorais.com.br/blog/workflow-malicioso-no-github-actions-as-tres-travas/)
 <!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)
