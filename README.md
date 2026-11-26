@@ -41,10 +41,10 @@ Aqui no GitHub eu publico o código por trás do que ensino: ferramentas open so
 
 <!-- BLOG:START -->
 
+- [Roubo de cookie de sessão: o que o 2FA não protege](https://ryanmorais.com.br/blog/roubo-de-cookie-de-sessao-o-que-o-2fa-nao-protege/)
 - [Pacote sequestrado: por que esperar 7 dias para atualizar](https://ryanmorais.com.br/blog/pacote-sequestrado-por-que-esperar-7-dias-para-atualizar/)
 - [Devs e IA em 2026: o que as pesquisas mostram a quem começa](https://ryanmorais.com.br/blog/devs-e-ia-em-2026-o-que-as-pesquisas-mostram-a-quem-comeca/)
 - [2FA não é tudo igual: passkey, app, push e SMS](https://ryanmorais.com.br/blog/2fa-nao-e-tudo-igual-passkey-app-push-e-sms/)
-- [Python 3.15 no Django: o que muda e o que conferir](https://ryanmorais.com.br/blog/python-3-15-no-django-o-que-muda-e-o-que-conferir/)
 <!-- BLOG:END -->
 
 [Ver todos os artigos →](https://ryanmorais.com.br/blog/)
