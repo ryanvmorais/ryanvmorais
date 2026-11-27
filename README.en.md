@@ -41,10 +41,10 @@ Here on GitHub I publish the code behind what I teach: open source tools, hands-
 
 <!-- BLOG:START -->
 
+- [O que a política de privacidade do seu site precisa dizer](https://ryanmorais.com.br/blog/o-que-a-politica-de-privacidade-do-seu-site-precisa-dizer/)
 - [Roubo de cookie de sessão: o que o 2FA não protege](https://ryanmorais.com.br/blog/roubo-de-cookie-de-sessao-o-que-o-2fa-nao-protege/)
 - [Pacote sequestrado: por que esperar 7 dias para atualizar](https://ryanmorais.com.br/blog/pacote-sequestrado-por-que-esperar-7-dias-para-atualizar/)
 - [Devs e IA em 2026: o que as pesquisas mostram a quem começa](https://ryanmorais.com.br/blog/devs-e-ia-em-2026-o-que-as-pesquisas-mostram-a-quem-comeca/)
-- [2FA não é tudo igual: passkey, app, push e SMS](https://ryanmorais.com.br/blog/2fa-nao-e-tudo-igual-passkey-app-push-e-sms/)
 <!-- BLOG:END -->
 
 [See all articles (in Portuguese) →](https://ryanmorais.com.br/blog/)
